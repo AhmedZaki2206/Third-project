@@ -70,4 +70,3 @@ ls
 cat id_rsa.pub 
 quit
 exit
-ls
