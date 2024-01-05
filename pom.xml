@@ -35,7 +35,7 @@
                 </configuration>
             </plugin>
 
-            <!-- Maven Jar Plugin -->
+            <!-- Maven JAR Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -44,7 +44,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>MainClass</mainClass>
+                            <mainClass>com.example.MainClass</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
